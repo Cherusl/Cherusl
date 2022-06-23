@@ -1,0 +1,57 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Redressed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', sans-serif;
+    box-sizing: border-box;
+}
+/* header vertical line */
+.header-vr-line::after{
+    content: '';
+    width: 15%;
+    height: 3px;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    border: 2px transparent;
+    background-color: red;
+}
+/* heading(income and expense) vertical line */
+.heading-vr::after{
+    content: '';
+    width: 15%;
+    height: 3px;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    border: 2px transparent;
+    background-color: red;
+}
+/* calculate button */
+.calculate-btn:hover{
+    transition: all .5s ease 0s;
+    transform: scale(1.1);
+}
+/* saving button */
+.save-btn:hover{
+    transition: all .5s ease 0s;
+    transform: scale(1.1);
+}
+/* alert */
+.notify{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #222436;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    display: none;
+    
+}
+.notify-section{
+    width: 35%;
+    margin: 0 auto;
+}
